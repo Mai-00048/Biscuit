@@ -6,7 +6,8 @@ Because apparently, this is what my life has come to—creating a tool to calcul
 
 Here it is, in all its glory:
 
-[https://github.com/Mai-00048/Shaboura-Immersion-Time-Calculator/blob/main/%D9%84%D9%82%D8%B7%D8%A9%20%D8%B4%D8%A7%D8%B4%D8%A9%202024-12-07%20010811.png]
+![Image Alt Text]([https://github.com/your-username/your-repository-name/blob/main/images/your_image.png](https://github.com/Mai-00048/Shaboura-Immersion-Time-Calculator/blob/main/%D9%84%D9%82%D8%B7%D8%A9%20%D8%B4%D8%A7%D8%B4%D8%A9%202024-12-07%20010811.png))
+
 
 **How the App Works (Because I Have to Explain It)**
 
