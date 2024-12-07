@@ -22,9 +22,9 @@ First, we need to calculate the viscosity:
 According to our formula, there is an inverse relationship between time and viscosity. The higher the viscosity (such as Karak tea), the longer the time. But if the tea is cold, the viscosity will increase more than if it were hot.
 
 **Choose Tea Temperature:**
-- **Hot** – Go ahead, burn your mouth. No one's stopping you.
-- **Warm** – You’re too lazy to wait, but you’re not a monster who drinks cold tea.
-- **Cold** – If you choose this, reconsider your life. Seriously.
+- **Hot** (Go ahead, burn your mouth. No one's stopping you).
+- **Warm** (You’re too lazy to wait, but you’re not a monster who drinks cold tea).
+- **Cold**  (If you choose this, reconsider your life. Seriously).
 
 **Shaboura Immersion Depth:**
 - **Light Dunk** – Quick dip.
