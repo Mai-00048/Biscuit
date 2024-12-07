@@ -6,8 +6,7 @@ Because apparently, this is what my life has come to—creating a tool to calcul
 
 Here it is, in all its glory:
 
-!(fourmla.png)
-
+![fourmla](https://github.com/user-attachments/assets/8003ad4c-b7d8-46b9-850d-157f8917ebb2)
 
 
 **How the App Works (Because I Have to Explain It)**
