@@ -1,4 +1,4 @@
-# **Shaboura Immersion Time Calculator**
+# **Shaboura Immersion Time Calculator In Your Tea**
 
 Because apparently, this is what my life has come to creating a tool to calculate how long to dunk a Shaboura into tea. Yep, this is where I am now. Anyway, let’s just dive into the code that will probably save your Shaboura from total annihilation.
 
