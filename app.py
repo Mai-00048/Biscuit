@@ -3,21 +3,27 @@ from tkinter import ttk
 
 def calculate_time():
     # Constants
-    D = 0.6  # Porosity coefficient
-    L_values = {"خفيف": 0.5, "متوسط": 1.0, "عميق": 1.5}  # Dip levels in cm
-    viscosity_values = {
-        "شاي كرك - ساخن": 0.6,
-        "شاي كرك - دافئ": 0.8,
-        "شاي كرك - بارد": 1.2,
-        "شاي أحمر - ساخن": 0.4,
-        "شاي أحمر - دافئ": 0.6,
-        "شاي أحمر - بارد": 0.9,
-        "شاي أخضر - ساخن": 0.3,
-        "شاي أخضر - دافئ": 0.5,
-        "شاي أخضر - بارد": 0.7,
-    }
+    D = 0.6  # Porosity coefficient (constant, generally remains fixed)
     
-    # Get the selected inputs
+    # Dip levels in cm (how deep the biscuit is dipped)
+    L_values = {"خفيف": 0.5, "متوسط": 1.0, "عميق": 1.5}
+    
+    # Viscosity values for different tea types and temperatures
+    viscosity_values = {
+        "شاي كرك - ساخن" : 0.7,   
+        "شاي كرك - دافئ" : 0.5,  
+        "شاي كرك - بارد" : 0.3,   
+
+        "شاي أحمر - ساخن": 0.8,
+        "شاي أحمر - دافئ": 0.4,
+        "شاي أحمر - بارد": 0.3,   
+
+        "شاي أخضر - ساخن": 1.0,
+        "شاي أخضر - دافئ": 0.5,
+        "شاي أخضر - بارد": 1.2,   
+    }
+
+    # Get the selected inputs from the GUI
     tea_type = tea_type_var.get()
     temperature = temperature_var.get()
     dip_level = dip_level_var.get()
@@ -25,11 +31,6 @@ def calculate_time():
     # Validation check for empty selections
     if not tea_type or not temperature or not dip_level:
         result_label.config(text="يرجى اختيار جميع الخيارات.")
-        return
-
-    # Calculate time if the dip level is not "خفيف"
-    if dip_level == "خفيف":
-        result_label.config(text="الزمن: تقريبًا 1 ثانية")
         return
 
     # Get the viscosity (η) and dip level (L) based on selections
