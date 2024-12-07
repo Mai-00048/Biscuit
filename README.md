@@ -6,7 +6,7 @@ Because apparently, this is what my life has come to—creating a tool to calcul
 
 Here it is, in all its glory:
 
-![Image Alt Text](fourmla.png)
+!(fourmla.png)
 
 
 
