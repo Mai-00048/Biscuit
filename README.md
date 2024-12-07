@@ -31,5 +31,6 @@ According to our formula, there is an inverse relationship between time and visc
 - **Full Dunk** – Go all in. Drown that Shaboura. You’re committed now.
 
 Finally, click that button to reveal the perfect time to dunk your Shaboura into your tea.
+![GUI](https://github.com/user-attachments/assets/160638e9-da71-4d67-890c-e61b897966a6)
 
 There you go. A tool to figure out how long to dunk your Shaboura into your tea. I know, it’s groundbreaking.
